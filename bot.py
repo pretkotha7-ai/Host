@@ -564,11 +564,11 @@ try:
 except (TypeError, ValueError):
     KEEPALIVE_PORT = 10000
 
-BRAND       = "GX Hosting Robot"
+BRAND       = "Ai Hosting Robot"
 BRAND_VER   = "v2.1"
 BRAND_TAG   = f"{BRAND} {BRAND_VER}"
-SUPPORT_USR = "@The_Dark_Mamun"
-UPDATE_CH   = "https://t.me/GAJARBOTOLX"
+SUPPORT_USR = "@ChannnelAi"
+UPDATE_CH   = "https://t.me/ChannnelAi"
 FOOTER      = f"\n\n<blockquote>{BRAND_TAG}</blockquote>"
 
 # ─── glyphs (smart contextual symbols + emojis for the UI) ──────
@@ -709,7 +709,7 @@ MAX_UPLOAD_BYTES = 758 * 1024 * 1024  # 758 MB hard cap
 # we cache and reuse for all later sends.
 _PHOTO_SPECS: Dict[str, Tuple[str, str, str]] = {
     # key:        (headline,        accent-hex, sub-text)
-    "welcome":   ("Wᴇʟᴄᴏᴍᴇ",         "#0F172A", "Sɪᴍʀᴀɴ Hᴏꜱᴛɪɴɢ"),
+    "welcome":   ("Wᴇʟᴄᴏᴍᴇ",         "#0F172A", "Ai Hᴏꜱᴛɪɴɢ"),
     "main":      ("Mᴀɪɴ Mᴇɴᴜ",       "#1E1B4B", "Cʜᴏᴏꜱᴇ Aɴ Oᴘᴛɪᴏɴ"),
     "tunnel":    ("Pᴜʙʟɪᴄ Uʀʟ",      "#0E7490", "Cʟᴏᴜᴅꜰʟᴀʀᴇ Tᴜɴɴᴇʟ"),
     "bots":      ("Yᴏᴜʀ Bᴏᴛꜱ",       "#0E7490", "Mᴀɴᴀɢᴇ & Dᴇᴘʟᴏʏ"),
